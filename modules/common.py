@@ -127,6 +127,9 @@ def get_build_args(
     args.append("treat_warnings_as_errors=false")
     args.append("is_component_build=false")
 
+    # ADD THIS LINE TO ENABLE RTTI:
+    args.append("use_rtti=true")
+
     if config == "release":
         args.append("symbol_level=0")
 
