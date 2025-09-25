@@ -166,7 +166,6 @@ def run_task_build():
                     config,
                 ),
                 "pdfium",
-                "-v",
             ]
             r.run(command)
 

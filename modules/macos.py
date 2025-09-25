@@ -102,7 +102,6 @@ def run_task_build():
                     target["target_os"], target["target_cpu"], config
                 ),
                 "pdfium",
-                "-v",
             ]
             r.run(command)
 
