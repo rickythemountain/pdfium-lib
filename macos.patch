@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 diff --git a/core/fxge/apple/fx_apple_impl.cpp b/core/fxge/apple/fx_apple_impl.cpp
 index 1234567..abcdefg 100644
 --- a/core/fxge/apple/fx_apple_impl.cpp
@@ -12,5 +10,3 @@ index 1234567..abcdefg 100644
      CFX_Font* pFont,
      const CFX_Matrix& mtObject2Device,
      float font_size,
-     
->>>>>>> dea8ff6 (created patch for macos)
